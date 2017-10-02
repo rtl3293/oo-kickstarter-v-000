@@ -16,5 +16,5 @@ class Backer
     @backed_projects.dup.freeze
   end
 
-  
+
 end
