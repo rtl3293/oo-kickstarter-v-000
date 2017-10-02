@@ -9,9 +9,12 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
+    project.backers << self
   end
 
   def backed_projects
     @backed_projects.dup.freeze
   end
+
+  
 end
